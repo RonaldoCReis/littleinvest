@@ -1,0 +1,41 @@
+.nuvem-intro{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: nuvem;
+    animation-timing-function: linear;
+}
+
+@keyframes nuvem {
+    0%   { transform: translateX(-0px); }
+    50%  { transform: translateX(-60px); }
+    100% { transform: translateX(-0px); }
+}
+
+.btn-form:hover:after{
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-name: btn;
+    animation-timing-function: linear;
+}
+
+@keyframes btn {
+    0%   { transform: translateX(-0px); }
+    50%  { transform: translateX(-5px); }
+    100% { transform: translateX(-0px); }
+}
+
+
+
+.carro-intro{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: carro;
+    animation-timing-function: linear;
+}
+
+
+@keyframes carro {
+    0%   { transform: translateY(-5px); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(-5px); }
+}
